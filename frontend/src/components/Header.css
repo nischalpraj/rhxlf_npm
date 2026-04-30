@@ -105,15 +105,13 @@
 
 .text-img {
   margin-top: 80px;
-  border: 1px solid white;
-  width: 1050px;
+  width: 1300px;
   height: 700px;
   display: flex;
   flex-direction: row;
 }
 
 .Text {
-  border: 1px solid red;
   flex: 1;
   display: flex;
   justify-content: center;
@@ -127,21 +125,46 @@
   color: rgb(218, 213, 213);
   font-size: 78px;
   margin-left: 30px;
-  
 }
 
-.sub-text{
-    font-family: "Open Sans", sans-serif;
+.sub-text {
+  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-    font-size:28px;
-    color:rgb(224, 219, 219);
-    margin: 0px 0px 100px 30px;
+  font-variation-settings: "wdth" 100;
+  font-size: 28px;
+  color: rgb(224, 219, 219);
+  margin: 0px 0px 100px 30px;
+}
+
+.explore{
+     margin:-80px 0px 0px 30px;
+     display: flex;
+     justify-content: center;align-items: center;
+     border-radius:20px;
+     background:#ffc300;
+     width:156px;
+     height:38px;
+     transition:all 0.3s ease;
+}
+
+.explore:hover{
+     transform: translateY(-4px);
+ box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.explore a {
+  text-decoration: none;
+  color: white !important;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 .first-image {
-  border: 1px solid yellow;
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import logo from "../assets/header_logo.png";
+import frogie from "../assets/frogie.png"
 
 const Header = () => {
   return (
@@ -10,9 +11,10 @@ const Header = () => {
           <img src={logo} alt="Logo" width="121" />
         </div>
         <div className="nav-links">
-          <a href="/">for learners</a>
-          <a href="/academics">for academics</a>
-          <a href="/organizations">for organizations</a>
+          <a href="/">For Learners</a>
+          <a href="/academics">For Academics</a>
+                  <a href="/organizations">For Organizations</a>
+                  <a href="/courses">Course</a>
         </div>
         <div className="auth-links">
           <div className="login">
@@ -34,9 +36,14 @@ const Header = () => {
           <div className="sub-text">
             Built on industry standards with real-world practice and
             employment-focused learning.
-          </div>
+                  </div>
+                  <div className="explore">
+                      <a href="/courses">Explore courses</a>
+                  </div>
         </div>
-        <div className="first-image"></div>
+              <div className="first-image">
+                  <img src={frogie} alt="frog image" width="600px" height="600px"/>
+        </div>
       </div>
     </div>
   );
