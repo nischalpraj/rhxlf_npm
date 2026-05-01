@@ -1,4 +1,4 @@
-.top-part {
+.first-part {
   background: linear-gradient(90deg, #064420 13%, #176f16 49%, #34b92d 76%);
   width: 100vw;
   height: 800px;
@@ -138,20 +138,21 @@
   margin: 0px 0px 100px 30px;
 }
 
-.explore{
-     margin:-80px 0px 0px 30px;
-     display: flex;
-     justify-content: center;align-items: center;
-     border-radius:20px;
-     background:#ffc300;
-     width:156px;
-     height:38px;
-     transition:all 0.3s ease;
+.explore {
+  margin: -80px 0px 0px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: #ffc300;
+  width: 156px;
+  height: 38px;
+  transition: all 0.3s ease;
 }
 
-.explore:hover{
-     transform: translateY(-4px);
- box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+.explore:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .explore a {
   text-decoration: none;
