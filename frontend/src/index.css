@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 @import "tailwindcss";
+=======
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+>>>>>>> eabff70c2990fd226a504826b6907cec1d305635
 
 * {
   margin: 0;
