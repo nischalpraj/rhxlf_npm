@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Header from "./components/Header";
 import Marquee from "./components/Marquee";
-import Hero2 from "./components/Hero2"
+import Hero2 from "./components/Hero2";
 import "./App.css";
 
 function App() {
@@ -11,10 +11,9 @@ function App() {
     <div className="overflow-x-hidden">
       <Header />
       <Marquee />
-      <Hero2/>
-      </div>
+      <Hero2 />
+    </div>
   );
 }
 
-export default App
-
+export default App;

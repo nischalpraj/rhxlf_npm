@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "./Hero2.css";
 
 const Hero2 = () => {
@@ -10,14 +10,14 @@ const Hero2 = () => {
         </div>
         <div className="lower-text">
           Whether you’re selling your personal expertise, scaling an academy, or
-          using online education to expand your company’s revenue, Leapfrog connect
-          equips you with the tools and support you need. Create lasting value,
-          engage with audiences, generate recurring revenue, and evolve your
-          business at every stage.
+          using online education to expand your company’s revenue, Leapfrog
+          connect equips you with the tools and support you need. Create lasting
+          value, engage with audiences, generate recurring revenue, and evolve
+          your business at every stage.
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default Hero2
+export default Hero2;
