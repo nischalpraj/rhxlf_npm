@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Panchang";
-  src: url("../assets/Fonts/Panchang_Complete/Fonts/OTF/Panchang-Regular.otf") format("truetype");
+  font-family: "Sprat";
+  src: url("../assets/Fonts/sprat-main/fonts/Sprat-CondensedMedium.woff") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 }
 .quote{
     font-size: 48px;
-     font-family: "Panchang";
+     font-family: "Sprat";
   font-weight: 400;
   font-style: normal;
 }
