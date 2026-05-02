@@ -13,6 +13,7 @@ function App() {
       <Header />
       <Marquee />
       <Hero2 />
+      <Hero3/>
     </div>
   );
 }

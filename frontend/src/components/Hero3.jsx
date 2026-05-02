@@ -1,5 +1,5 @@
 import React from 'react';
-import icon from "./icon-quote.svg"
+import icon from "../assets/icon-quote.svg"
 import "./Hero3.css";
 
 const Hero3 = () => {
