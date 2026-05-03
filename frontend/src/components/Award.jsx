@@ -13,7 +13,10 @@ const Award = () => {
         </div>
       </div>
       <div className="badge">
-              <img src={badge} />
+        <img src={badge} />
+      </div>
+      <div className="award-subquote" style={{ marginTop: 38 }}>
+        "Recognized by leading tech communities as a trusted learning platform."
       </div>
     </div>
   );
