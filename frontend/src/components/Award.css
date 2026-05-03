@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Telma";
+  src: url("../assets/Fonts/Telma_Complete/Fonts/OTF/Telma-Regular.otf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.award-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:48px;
+    flex-direction: column;
+}
+.award-quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Telma";
+    font-size:48px;
+}
+.award-subquote{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color: rgb(73, 68, 68);;
+}
