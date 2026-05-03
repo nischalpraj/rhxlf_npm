@@ -1,9 +1,11 @@
 import React from 'react'
+import "./About.css";
 
 const About = () => {
   return (
-      <div>
-          
+      <div className='about-div'>
+          <div className='about-text'>
+          What is leapfrog connect?</div>    
     </div>
   )
 }
